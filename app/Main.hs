@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import TryEval
 
 main :: IO ()
-main = someFunc
+main = print tryEval
